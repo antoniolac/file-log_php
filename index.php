@@ -3,7 +3,7 @@
 $ip = isset($_SERVER['REMOTE_ADDR']) ? $_SERVER['REMOTE_ADDR'] : 'IP sconosciuto';
 $porta = isset($_SERVER['REMOTE_PORT']) ? $_SERVER['REMOTE_PORT'] : 'Porta sconosciuta';
 
-//Data e ora correnti (non so perchè va due ore indietro (non mi va di sistermalo))
+//Data e ora correnti
 $dataOra = date('Y-m-d H:i:s');
 
 //Info log
